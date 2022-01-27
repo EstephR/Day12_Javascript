@@ -6,8 +6,6 @@ function boxCalculation(width, height, depth) {
     var area = width * height;
     var volume = width * height * depth;
 
-    var arr = [area, volume];
-
     return `The are of the box is: ${area} <br> The volume of the box is: ${volume}`
 }
 
