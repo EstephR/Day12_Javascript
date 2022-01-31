@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+.atm {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #6d6c6c;
+    padding: 20px;
+}
+
+#input-el {
+    border: 2px green solid;
+    width: 40%;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+#btn {
+    border: 2px green solid;
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+#result-el {
+    color: white;
+}
